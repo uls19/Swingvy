@@ -1,0 +1,10 @@
+.image-link {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65px;
+    width: 65px;
+   
+}
+.image-link:hover .contacts-link {
+    opacity: 1;
+}

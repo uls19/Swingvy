@@ -1,0 +1,10 @@
+.menu-list__link {
+    padding: 14px 0;
+    text-decoration: none;
+    white-space:nowrap;
+    color: #1C202B;
+
+}
+.menu-list__link:hover {
+    text-decoration: underline;
+}

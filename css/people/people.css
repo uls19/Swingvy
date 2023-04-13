@@ -1,0 +1,10 @@
+.people {
+    padding-left: calc(50% - 1072px / 2 );
+    padding-right: calc(50% - 1072px /2 );
+    margin-bottom: 216px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}

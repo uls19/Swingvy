@@ -1,0 +1,7 @@
+.line-company {
+    padding-left: calc(50% - 1072px / 2);
+    padding-right: calc(50% - 1072px /2);
+    display: flex;
+    gap: 59px;
+    flex-wrap: wrap;
+}

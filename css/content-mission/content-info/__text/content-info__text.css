@@ -1,0 +1,14 @@
+.content-info__text { 
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #657085;
+    margin-bottom: 29px;
+
+}

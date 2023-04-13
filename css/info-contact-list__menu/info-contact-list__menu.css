@@ -1,0 +1,4 @@
+.info-contact-list__menu {
+    display: flex;
+    gap: 12px;
+}

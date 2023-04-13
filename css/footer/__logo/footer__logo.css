@@ -1,0 +1,7 @@
+.footer__logo {
+    max-width: 326px;
+    background-image: url(./img/footer_logo.svg);
+    background-repeat: no-repeat;
+    padding: 55px 0 48px;
+
+}

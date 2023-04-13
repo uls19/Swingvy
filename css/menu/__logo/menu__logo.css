@@ -1,0 +1,8 @@
+.menu__logo {
+    padding: 9px 0;
+
+}
+.menu__logo:hover {
+    background-color: rgb(237, 246, 253);
+    border-radius: 5px;
+}

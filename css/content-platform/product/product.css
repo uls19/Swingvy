@@ -1,0 +1,14 @@
+.product {
+    max-width: 337px;
+    list-style-type: none;
+    margin-right: 48px;
+    
+}
+@media screen and (max-width:594px) {
+    .product {
+        margin-right: 0;
+        
+    } 
+
+}
+    

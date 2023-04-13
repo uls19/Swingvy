@@ -1,0 +1,14 @@
+.menu-in {
+    margin-left: auto;
+    display: flex;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    height: 51px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    align-items: center;
+    
+    }

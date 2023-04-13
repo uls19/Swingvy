@@ -1,0 +1,9 @@
+.active-line {
+    border: none; /* Убираем границу */
+    background: none;
+    height: 3px; /* Толщина линии */
+    width: 307px;
+    margin: 0 auto;
+    transition-duration: .2s;
+    
+}

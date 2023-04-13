@@ -1,0 +1,11 @@
+.contacts-content-info__data {
+    width: 436px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-left: auto;
+    padding: 39px 40px 55px;
+    height: 344px;
+}
+input:focus {
+    outline-color:#c5cbff;
+    }

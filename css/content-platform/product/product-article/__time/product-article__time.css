@@ -1,0 +1,6 @@
+.product-article__time {
+    background: #FFF3EF;
+}
+.product-article__time:hover .active-line {
+    background: #0A61F7;
+}

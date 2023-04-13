@@ -1,0 +1,14 @@
+.info-contacts__title {
+    margin-bottom: 24px;
+   width: 112px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #657085;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,6 @@
+.product-article__hrhub {
+    background: #EAF3FF;  
+} 
+.product-article__hrhub:hover .active-line {
+    background: #0A61F7;
+}

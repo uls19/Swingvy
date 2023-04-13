@@ -1,0 +1,6 @@
+.product-article__benefits {
+    background: #F3E5F5;
+}
+.product-article__benefits:hover .active-line {
+    background: #0A61F7;
+}

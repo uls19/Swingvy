@@ -1,0 +1,15 @@
+.infocomm-button {
+    padding: 20px 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #1C202B;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.infocomm-button:hover {
+    background-color: rgb(238, 238, 238);
+}

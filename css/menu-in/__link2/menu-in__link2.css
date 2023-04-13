@@ -1,0 +1,13 @@
+.menu-in__link2 {
+    color: white;
+    border-radius: 4px;
+    padding: 18px 24px;
+    text-decoration: none;
+    background: #0A61F7;
+    white-space:nowrap;
+   
+
+ }
+ .menu-in__link2:hover {
+    background-color: rgb(90, 115, 255);
+ }

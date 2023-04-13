@@ -1,0 +1,12 @@
+.menu-in__link1 {
+    padding: 14px 19px;
+    color: #222222;
+    text-decoration: none;
+    padding-right: 20px;
+    white-space:nowrap;
+    
+   
+ }
+ .menu-in__link1:hover {
+    text-decoration: underline;
+ }

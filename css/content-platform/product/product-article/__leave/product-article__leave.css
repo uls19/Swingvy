@@ -1,0 +1,6 @@
+.product-article__leave {
+    background: #FFF8E4;
+}
+.product-article__leave:hover .active-line { 
+    background: #0A61F7;
+}

@@ -1,0 +1,8 @@
+.infocom-content__right {
+    max-width: 295px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 110px;
+    margin-left: auto;
+    flex-wrap: wrap;
+}

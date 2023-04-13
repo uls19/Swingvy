@@ -1,0 +1,17 @@
+.menu-list {
+    padding-left: 24px;
+    width: 469px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    justify-content: space-around;
+    height: 51px;
+    align-items: center;
+    justify-content: space-around;
+}

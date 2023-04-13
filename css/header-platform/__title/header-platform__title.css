@@ -1,0 +1,10 @@
+.header-platform__title {
+    margin: 20px 0 32px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 48px;
+    /* identical to box height, or 123% */
+    letter-spacing: 0.8px;
+    color: #1C202B;
+}

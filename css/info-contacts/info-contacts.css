@@ -1,0 +1,13 @@
+.info-contacts {
+    padding-left: calc(50% - 1056px / 2);
+    padding-right: calc(50% - 1056px / 2);
+    margin-bottom: 166px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media screen and (max-width: 594px) {
+    .info-contacts {
+        justify-content: space-around;
+    } 
+}

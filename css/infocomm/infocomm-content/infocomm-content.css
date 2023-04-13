@@ -1,0 +1,8 @@
+.infocomm-content {
+    padding-left: calc(50% - 1072px / 2 );
+    padding-right: calc(50% - 1072px /2 );
+    margin-bottom: 125px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

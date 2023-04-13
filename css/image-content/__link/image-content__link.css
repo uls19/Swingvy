@@ -1,0 +1,16 @@
+.image-content__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #0A61F7;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 20px 48px;
+    white-space:nowrap;
+}
+.image-content__link:hover {
+    background-color: rgb(90, 115, 255);
+}

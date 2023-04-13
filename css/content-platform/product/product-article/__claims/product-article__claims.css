@@ -1,0 +1,6 @@
+.product-article__claims {
+    background: #E2FBF2;
+}
+.product-article__claims:hover .active-line {
+    background: #0A61F7;
+}

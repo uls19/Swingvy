@@ -1,0 +1,18 @@
+.modern__button-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    background: #0A61F7;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+.modern__button-link:hover {
+    background-color: rgb(90, 115, 255);
+}

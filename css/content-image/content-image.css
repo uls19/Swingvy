@@ -1,0 +1,9 @@
+.content-image {
+    margin-top: 18px;
+    background-image: url(../../img/girl_foto.svg);
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 516px;
+    background-size: contain;
+    margin-left: auto;
+}

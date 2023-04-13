@@ -1,0 +1,7 @@
+.content-mission {
+    padding-left: calc(50% - 1108px / 2);
+    padding-right: calc(50% - 1108px / 2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

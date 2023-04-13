@@ -1,0 +1,6 @@
+.product-article__payroll{
+    background: #F1F1FC;
+}
+.product-article__payroll:hover .active-line {
+    background: #0A61F7;
+}

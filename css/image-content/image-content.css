@@ -1,0 +1,9 @@
+.image-content {
+    padding-left: calc(50% - 1440px /2);
+    padding-right: calc(50% - 1440px /2);
+    background-image: url(../../img/Frame.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 802px;
+    
+ }
