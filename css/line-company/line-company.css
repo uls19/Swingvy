@@ -5,3 +5,10 @@
     gap: 59px;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1100px) {
+    .line-company {
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+    } 

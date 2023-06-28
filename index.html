@@ -6,21 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swingvy</title>
-    <link rel="shortcut icon" type="image/png" href="./img/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
     <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
     <div class="top">
         <div class="menu">
-            <a href="index.html"><img src="img/logo.svg" alt="logotype" class="menu__logo"></a> 
+            <a class="menu__link" href="index.html"><img src="img/logo.svg" alt="logotype" class="menu__logo"></a>
+            <div class="burger">
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+            </div>
             <ul class="menu-list">
-                <li><a class="menu-list__link" href="#">PRODUCTS<img class="menu-list__image" src="./img/Group.svg"
-                            alt="gpoup"></a></li>
+                <li class="menu-list__products"><a class="menu-list__link" href="#">PRODUCTS<img
+                            class="menu-list__image" src="./img/Group.svg" alt="gpoup"></a>
+                    <div class="nav">
+                        <div class="nav__products">
+                            <a class="nav__link" href="#"><img class="nav__image" src="./img/hr.svg" alt="icon">HR
+                                Hub</a>
+                            <a class="nav__link" href="#"><img class="nav__image" src="./img/leave.svg"
+                                    alt="icon">Leave</a>
+                            <a class="nav__link" href="#"><img class="nav__image" src="./img/time.svg"
+                                    alt="icon">Time</a>
+                            <a class="nav__link" href="#"><img class="nav__image" src="./img/claims.svg"
+                                    alt="icon">Claims</a>
+                            <a class="nav__link" href="#"><img class="nav__image" src="./img/payroll.svg"
+                                    alt="icon">Payroll</a>
+                            <a class="nav__link" href="#"><img class="nav__image" src="./img/benefits.svg"
+                                    alt="icon">Benefits</a>
+                            <a class="nav__link" href="#"><img class="nav__image" src="./img/mobile.svg"
+                                    alt="icon">Mobile</a>
+                        </div>
+                    </div>
+                </li>
                 <li><a class="menu-list__link" href="#">pricing</a></li>
                 <li><a class="menu-list__link" href="#">partners</a></li>
-                <li> <a class="menu-list__link" href="#">company<img class="menu-list__image" src="./img/Group.svg"
-                            alt="gpoup"></a></li>
+                <li class="menu-list__company"><a class="menu-list__link" href="#">company<img class="menu-list__image"
+                            src="./img/Group.svg" alt="gpoup"></a>
+                    <div class="nav1">
+                        <div class="nav1__company">
+                            <a class="nav__link" href="#">About Us</a>
+                            <a class="nav__link" href="#">Customers</a>
+                            <a class="nav__link" href="#">Contact Us</a>
+                            <a class="nav__link" href="#">Press</a>
+                            <a class="nav__link" href="#">Careers</a>
+                            <a class="nav__link" href="#">Partners</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
             <ul class="menu-in">
                 <li><a class="menu-in__link1" href="#">sign in</a></li>
@@ -107,18 +142,21 @@
     </div>
     <div class="people">
         <div class="people-info"><a href="#" class="people-info__link"><img src="./img/foto1.jpg" alt="foto">
-            <h3 class="people-info__title">FOR CEO</a></h3>
+                <h3 class="people-info__title">FOR CEO
+            </h3></a>
             <p class="people-info__text">Streamline your people operations with ease while reducing operating costs.</p>
 
         </div>
         <div class="people-info"><a href="#" class="people-info__link"><img src="./img/foto2.jpg" alt="foto">
-            <h3 class="people-info__title">FOR HR</a></h3>
+                <h3 class="people-info__title">FOR HR
+            </h3></a>
             <p class="people-info__text">Automate your HR workflow so you can focus on keeping your team happy and
                 healthy.</p>
 
         </div>
         <div class="people-info"><a href="#" class="people-info__link"><img src="./img/foto3.jpg" alt="foto">
-            <h3 class="people-info__title">FOR EMPLOYEES</a></h3>
+                <h3 class="people-info__title">FOR EMPLOYEES
+            </h3></a>
             <p class="people-info__text">Give your people easy access to the right information so everyone stays in
                 sync.</p>
 
@@ -231,62 +269,71 @@
         <div class="footer__logo">
             <h3 class="footer__title">People Operations Platform</h3>
             <p class="footer__text">The people platform for payroll, benefits, claims and much more.</p>
-            <p class="footer-image"><a href="https://www.apple.com/ru/app-store/" target="_blank"><img class="footer-image__store" src="./img/store.svg" alt="image"></a> 
-                <a href="https://programmy-dlya-android.ru/internet/237-google-play-market.html " target="_blank"><img class="footer-image__google" src="./img/google.svg" alt="image"></a>
+            <p class="footer-image"><a href="https://www.apple.com/ru/app-store/" target="_blank"><img
+                        class="footer-image__store" src="./img/store.svg" alt="image"></a>
+                <a href="https://programmy-dlya-android.ru/internet/237-google-play-market.html " target="_blank"><img
+                        class="footer-image__google" src="./img/google.svg" alt="image"></a>
             </p>
         </div>
 
         <div class="footer-menu">
             <h3 class="footer-menu__tilte">Products</h3>
             <ul class="footer-menu__text">
-                <li class="footer-menu__list"><img class="footer-menu__icon" src="./img/icon1.svg" alt="icon"> HR
-                    Hub</li>
-                <li class="footer-menu__list"><img class="footer-menu__icon" src="./img/icon2.svg" alt="icon"> Leave
+                <li class="footer-menu__list"><a class="footer-menu__link" href="#"><img class="footer-menu__icon"
+                            src="./img/icon1.svg" alt="icon"> HR
+                        Hub</a></li>
+                <li class="footer-menu__list"><a class="footer-menu__link" href="#"><img class="footer-menu__icon"
+                            src="./img/icon2.svg" alt="icon"> Leave</a>
                 </li>
-                <li class="footer-menu__list"><img class="footer-menu__icon" src="./img/icon3.svg" alt="icon"> Time
+                <li class="footer-menu__list"><a class="footer-menu__link" href="#"><img class="footer-menu__icon"
+                            src="./img/icon3.svg" alt="icon"> Time</a>
                 </li>
-                <li class="footer-menu__list"><img class="footer-menu__icon" src="./img/icon4.svg" alt="icon">
-                    Claims</li>
-                <li class="footer-menu__list"><img class="footer-menu__icon" src="./img/icon6.svg" alt="icon">
-                    Payroll</li>
-                <li class="footer-menu__list"><img class="footer-menu__icon" src="./img/icon7.svg" alt="icon">
-                    Benefits</li>
-                <li class="footer-menu__list"><img class="footer-menu__icon" src="./img/icon8.svg" alt="icon">
-                    Mobile</li>
+                <li class="footer-menu__list"><a class="footer-menu__link" href="#"><img class="footer-menu__icon"
+                            src="./img/icon4.svg" alt="icon">
+                        Claims</a></li>
+                <li class="footer-menu__list"><a class="footer-menu__link" href="#"><img class="footer-menu__icon"
+                            src="./img/icon6.svg" alt="icon">
+                        Payroll</a></li>
+                <li class="footer-menu__list"><a class="footer-menu__link" href="#"><img class="footer-menu__icon"
+                            src="./img/icon7.svg" alt="icon">
+                        Benefits</a></li>
+                <li class="footer-menu__list"><a class="footer-menu__link" href="#"><img class="footer-menu__icon"
+                            src="./img/icon8.svg" alt="icon">
+                        Mobile</a></li>
 
             </ul>
         </div>
         <div class="footer-menu">
             <h3 class="footer-menu__tilte">Resources</h3>
             <ul class="footer-menu__text">
-                <li class="footer-menu__list">Library</li>
-                <li class="footer-menu__list">Blog</li>
-                <li class="footer-menu__list">Help Center</li>
-                <li class="footer-menu__list">Pricing</li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Library</a></li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Blog</a></li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Help Center</a></li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Pricing</a></li>
             </ul>
         </div>
         <div class="footer-menu">
             <h3 class="footer-menu__tilte">company</h3>
             <ul class="footer-menu__text">
-                <li class="footer-menu__list">About Us</li>
-                <li class="footer-menu__list">Customers</li>
-                <li class="footer-menu__list">Contact Us</li>
-                <li class="footer-menu__list">Press</li>
-                <li class="footer-menu__list">Careers</li>
-                <li class="footer-menu__list">Partners</li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">About Us</a></li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Customers</a></li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Contact Us</a></li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Press</a></li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Careers</a></li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Partners</a></li>
 
             </ul>
         </div>
         <div class="footer-menu">
             <h3 class="footer-menu__tilte">legal</h3>
             <ul class="footer-menu__text">
-                <li class="footer-menu__list">Terms of<br> Service</li>
-                <li class="footer-menu__list">Privacy Policy</li>
-                <li class="footer-menu__list">Security</li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Terms of<br> Service</a></li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Privacy Policy</a></li>
+                <li class="footer-menu__list"><a href="#" class="footer-menu__link">Security</a></li>
 
             </ul>
         </div>
-</footer>
+    </footer>
     <hr class="line-contacts__line">
     <div class="info-contacts">
         <div class="info-contacts-country">
@@ -307,7 +354,7 @@
             </ul>
         </div>
         <div class="info-contacts-mail__image">
-            <h3 class="info-contacts-mail__tilte">Swingvy © 2020</h3>
+            <h3 class="info-contacts-mail__tilte">Swingvy © 2023</h3>
 
             <ul class="info-contact-list__menu">
                 <li class="info-contact-list__image"><a href="#"><img src="./img/face.svg" alt="icon"></a></li>
@@ -323,6 +370,7 @@
 
 
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

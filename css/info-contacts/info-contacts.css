@@ -1,7 +1,7 @@
 .info-contacts {
     padding-left: calc(50% - 1056px / 2);
     padding-right: calc(50% - 1056px / 2);
-    margin-bottom: 166px;
+    margin-bottom: 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

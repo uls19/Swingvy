@@ -8,5 +8,12 @@
     text-transform: uppercase;
     color: #657085;
     padding-top: 46px; 
+    padding-left: 10px;
 
+}
+
+@media screen and (max-width: 1100px) {
+    .header-platform__text, .header-platform__title {
+   text-align: center;
+    } 
 }

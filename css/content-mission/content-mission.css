@@ -3,5 +3,11 @@
     padding-right: calc(50% - 1108px / 2);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
+
+@media screen and (max-width: 1100px) {
+    .content-mission {
+        justify-content: space-evenly;
+    }
+    } 

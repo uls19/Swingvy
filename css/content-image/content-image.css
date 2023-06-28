@@ -4,6 +4,6 @@
     background-repeat: no-repeat;
     height: 480px;
     width: 516px;
-    background-size: contain;
-    margin-left: auto;
+    background-size: cover;
+    background-position: center;
 }

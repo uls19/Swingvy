@@ -4,3 +4,10 @@
     flex-wrap: wrap;
     margin-top: 66px;
 }
+
+@media screen and (max-width: 1100px) {
+    .contacts-text__image {
+        justify-content: center;
+    }
+}
+

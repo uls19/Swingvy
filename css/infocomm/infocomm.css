@@ -4,6 +4,14 @@
     margin-right: auto;
     background: #FEC33E;
     padding-top: 192px;
-    padding-bottom: 143px;
+    padding-bottom: 268px;
     margin-bottom: 160px;
 }
+
+@media screen and (max-width: 1100px) {   
+    .infocomm {
+        padding-top: 100px;
+        padding-bottom: 130px;
+        margin-bottom: 130px;
+    }
+    }  

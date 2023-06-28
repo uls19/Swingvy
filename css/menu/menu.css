@@ -2,7 +2,30 @@
     padding: 12px;
     padding-left: calc(50% - 1072px /2);
     padding-right:calc(50% - 1072px /2); 
-    display: flex; 
-    flex-wrap: wrap;
+    /* display: flex;  */
+    /* flex-wrap: wrap; */
+    display: grid;
     align-items: center;
+    grid-template-columns: 186px 470px auto; 
+    /* grid-template-rows: 2fr; */
+    grid-template-areas: 
+    "logo list in";
+}
+
+@media screen and (max-width: 984px) {
+    .menu {
+    grid-template-columns: 186px auto;   
+    grid-template-areas: 
+    "logo . in"
+     "list list list" ;
+}
+}
+
+@media screen and (max-width: 500px) {
+    .menu {
+        grid-template-columns: 50px auto;   
+        grid-template-areas: 
+    "burger in"; 
+    }
+    
 }

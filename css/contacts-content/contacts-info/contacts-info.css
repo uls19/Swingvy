@@ -2,6 +2,13 @@
     padding-left: calc(50% - 1072px / 2);
     padding-right: calc(50% - 1072px /2);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1100px) {
+    .contacts-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    } 

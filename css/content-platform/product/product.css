@@ -1,14 +1,7 @@
 .product {
-    max-width: 337px;
     list-style-type: none;
-    margin-right: 48px;
-    
+    padding-left: 10px;
+    padding-right: 10px;
 }
-@media screen and (max-width:594px) {
-    .product {
-        margin-right: 0;
-        
-    } 
 
-}
     

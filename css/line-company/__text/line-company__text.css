@@ -7,3 +7,9 @@
     color: #657085;
     margin: 181px 0 31px;
 }
+
+@media screen and (max-width: 1100px) {
+    .line-company__text {
+        margin: 130px 0 31px;
+    }
+    } 

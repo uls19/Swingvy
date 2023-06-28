@@ -8,3 +8,11 @@
     gap: 48px;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1100px) {   
+.people {
+    padding-left: calc(50% - 984px / 2 );
+    padding-right: calc(50% - 984px /2 );
+    margin-bottom: 100px;
+}
+}  

@@ -1,0 +1,6 @@
+.footer-menu__link {
+    text-decoration: none;
+}
+.footer-menu__link:hover {
+    text-decoration: underline; 
+}

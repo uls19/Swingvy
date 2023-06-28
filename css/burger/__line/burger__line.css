@@ -1,0 +1,10 @@
+.burger__line {
+    width: 40px;
+    height: 4px;
+    background-color: #0A61F7;;
+    margin: 4px;
+    border-radius: 4px;
+}
+.burger__line_show {
+    left: 30px ;
+}
