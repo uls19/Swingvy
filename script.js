@@ -15,3 +15,9 @@ const menuBl = document.querySelector('.menu-list');
 burgerBl.addEventListener("click", function () {
   menuBl.classList.toggle('menu-list_show');
 });
+
+const burgerFl = document.querySelector('.nav-lang');
+const menuFl = document.querySelector('.lang');
+burgerFl.addEventListener("click", function () {
+    menuFl.classList.toggle('lang_show');
+});

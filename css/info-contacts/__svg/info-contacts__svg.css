@@ -1,0 +1,10 @@
+.info-contacts__svg {
+    fill: #939DAE; 
+    transition: .3s;
+}
+
+.info-contacts__svg:hover {
+    fill: #6b7380;
+    transform: scale(1.5);
+    
+}

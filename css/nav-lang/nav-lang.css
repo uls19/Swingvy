@@ -1,0 +1,11 @@
+.nav-lang {
+    position: relative;
+    display: flex;
+    width: 82px;
+    padding-left: 17px;
+    background-image: url(../../img/Icon11.svg);
+    background-repeat: no-repeat;
+    background-position-x: 76px;
+    background-position-y: 7px;
+    cursor: pointer;
+  }

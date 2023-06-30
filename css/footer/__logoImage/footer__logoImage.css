@@ -1,0 +1,9 @@
+.footer__logoImage {
+    padding-bottom: 23px;
+    fill:#0A61F7; 
+}
+
+.footer__logoImage:hover {
+   
+    fill: rgb(90, 115, 255);
+}
