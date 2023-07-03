@@ -1,3 +1,10 @@
 .footer-image__store {
     margin-right: 16px;
+    transition: 0.2s;
+    
 }
+.footer-image__store:hover {
+    transform: scale(1.05);
+
+}
+    

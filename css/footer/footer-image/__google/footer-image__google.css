@@ -1,0 +1,9 @@
+.footer-image__google {
+    transition: 0.2s;
+}
+
+.footer-image__google:hover {
+    transform: scale(1.05);
+
+}
+    
