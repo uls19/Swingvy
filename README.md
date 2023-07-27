@@ -1,2 +1,2 @@
 # Swingvy
-Одностраничный сайт. Адаптив 1440<320px 
+Landing page. Adapted 1440<320px. 
